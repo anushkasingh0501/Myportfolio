@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: crimson;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    opacity: 0.7;
+}
+.navbar .logo{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 25px;
+}
+.home{
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.home .text{
+    color: aliceblue;
+    text-align: left;
+    font-size: 40px;
+    position: absolute;
+    right: 150px;
+    top: 50%;
+}
+.home .image{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30%;
+}
+.about{
+    height: 100vh;
+    align-items: center;
+}
+.about .h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+    font-style: italic;
+}
+.about .h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+.about .text{
+    width: 1000px;
+    height: 600px;
+    opacity: 0.2;
+    position: absolute;
+    left:15%;
+}
+.about p{
+    font-weight: bold;
+    font-family: serif;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.skills{
+    height: 100vh;
+    align-items: center;
+    margin-top: 200px;
+    background-color: rgb(221, 197, 197);
+}
+.skills .h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+    font-style: italic;
+}
+.skills .text{
+    font-weight: bold;
+    font-family: serif;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.projects{
+    text-align: center;
+    height: 100vh;
+    display: grid;
+    background-color: rgb(221, 197, 197);
+}
+.projects .h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+    font-style: italic;
+}
+.pro{
+    margin-left: 100px;
+    border-radius: 15%;
+    margin-left: 100px;
+    float: left;
+    padding: 15px;
+    width: 40%;
+    flex: 40%;
+}
+.pro:hover{
+    opacity: 0.5;
+}
+.contact{
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(221, 197, 197);
+}
+.contact .h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    color: crimson;
+    font-style: italic;
+}
+.contact .fafa{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.contact .container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 400px;
+}
+.contact .container input,
+ .contact textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+ }
+ .contact .submit{
+    background-color:skyblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer ;
+ }
+ .contact .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 5rem;
+    font-size: 30px;
+    color: #666;
+    cursor: pointer;
+ }
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: rgb(99, 6, 71);
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+
+
